@@ -1,4 +1,36 @@
-###  DVWA Security Testing & Mitigation Lab
+#  OWASP Top 10 Vulnerability Lab – Cybersecurity Task 3
+
+> Hands-on exploitation and mitigation of real-world web vulnerabilities using DVWA & Kali Linux.
+
+![Domain](https://img.shields.io/badge/Domain-Cybersecurity-blue)
+![Tools](https://img.shields.io/badge/Tools-Kali%20Linux%20%7C%20DVWA-red)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+
+##  Overview
+This project demonstrates practical exploitation of **OWASP Top 10 vulnerabilities** in a controlled lab environment.
+
+Each vulnerability is:
+- Exploited step-by-step
+- Documented with screenshots
+- Secured using mitigation techniques
+  
+
+##  Skills Acquired
+- Web Application Penetration Testing
+- Vulnerability Assessment
+- Secure Coding Practices
+- Burp Suite Usage
+- HTTP Security Hardening
+
+
+##  Tools Used
+- Kali Linux
+- DVWA
+- Burp Suite
+- Apache Server
+- Browser DevTools
+
 
 ###  Vulnerability Analysis and Exploitation
 
@@ -10,9 +42,7 @@
 2. Cross-Site Scripting (Task 2)
    - Vulnerability: Reflected and Stored XSS.
    - Screenshot: XSS
-
   <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/f40cd2b8-f7ab-449d-9e34-c01978e422ca" />
-
      
 3. CSRF (Task 3)
    - Vulnerability: Cross-Site Request Forgery.
@@ -39,3 +69,7 @@
    - Screenshot: Security Headers
      <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/34917175-37a5-447e-8837-64bec46ac532" />
 
+## Key Learnings
+- Small vulnerabilities can lead to full system compromise
+- Input validation is critical
+- Security must be implemented at every layer
